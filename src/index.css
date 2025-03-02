@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .glow {
+    @apply relative;
+  }
+  
+  .glow::after {
+    @apply content-[''] absolute inset-0 -z-10 blur-xl opacity-50;
+    background: inherit;
+  }
+
+  .neon-button {
+    @apply relative px-8 py-3 bg-transparent border-2 rounded-none 
+           font-orbitron font-bold tracking-wider uppercase
+           transition-all duration-300 overflow-hidden
+           hover:text-black hover:border-transparent
+           before:absolute before:inset-0 before:-z-10 before:translate-x-[-100%]
+           before:transition-transform before:duration-300
+           before:bg-gradient-to-r before:from-cyan-500 before:via-blue-500 before:to-purple-500
+           hover:before:translate-x-0
+           after:absolute after:inset-0 after:-z-20 after:bg-[#000510]
+           after:transition-colors after:duration-300
+           hover:after:bg-cyan-500/20;
+  }
+
+  .cyber-grid {
+    background-image: linear-gradient(rgba(0, 195, 255, 0.05) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(0, 195, 255, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  .cyber-card {
+    @apply relative bg-[#000510] border border-cyan-500/20 rounded-none
+           transition-all duration-300 overflow-hidden
+           hover:border-cyan-500 hover:shadow-[0_0_30px_rgba(0,195,255,0.2)]
+           before:absolute before:inset-0 before:-z-10
+           before:bg-gradient-to-b before:from-cyan-500/10 before:to-transparent
+           before:transition-opacity before:duration-300 before:opacity-0
+           hover:before:opacity-100;
+  }
+
+  .cyber-text-glow {
+    /* Further reduced text shadow for better cross-browser compatibility */
+    text-shadow: 0 0 2px rgba(0, 195, 255, 0.2),
+                 0 0 4px rgba(0, 195, 255, 0.1);
+  }
+  
+  /* Alternative glow effect that works better across browsers */
+  .cyber-text {
+    @apply text-cyan-400 font-orbitron font-bold;
+    filter: drop-shadow(0 0 2px rgba(0, 195, 255, 0.3));
+  }
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500;
+}
+
+.cyber-gradient {
+  background: linear-gradient(135deg, 
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 5, 16, 0.95) 50%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+@keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(1deg);
+    }
+    50% {
+      transform: rotate(-1deg);
+    }
+  }
+
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+@keyframes wiggle2 {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(2deg);
+  }
+}
+
+.animate-wiggle2 {
+  animation: wiggle2 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+@keyframes wiggle3 {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.animate-wiggle3 {
+  animation: wiggle3 2s cubic-bezier(0.55, 0, 0.45, 1) infinite;
+}
+
+/* Add pause on hover */
+.animate-wiggle3:hover {
+  animation-play-state: paused;
+}
+
+.animate-wiggle2:hover {
+  animation-play-state: paused;
+}
