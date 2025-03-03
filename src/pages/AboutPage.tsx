@@ -95,7 +95,8 @@ function AboutPage() {
                 <Users className="w-12 h-12 text-purple-500 mx-auto mb-4" />
                 <h3 className="text-xl font-orbitron font-bold mb-3">PEOPLE-FIRST</h3>
                 <p className="text-cyan-500/80">
-                  By integrating AI, we help people work smarter, focus on what matters, and achieve their goals faster.
+                  By integrating AI, we help people work smarter, focus on what matters, and achieve their 
+                  goals faster.
                 </p>
               </motion.div>
               
@@ -108,7 +109,8 @@ function AboutPage() {
                 <Award className="w-12 h-12 text-purple-500 mx-auto mb-4" />
                 <h3 className="text-xl font-orbitron font-bold mb-3">EXCELLENCE</h3>
                 <p className="text-cyan-500/80">
-                  We’re dedicated to providing top-tier AI-powered automated workflows that streamline your work and drive results..
+                  We’re dedicated to providing top-tier AI-powered automated workflows that streamline 
+                  your work and drive results..
                 </p>
               </motion.div>
               
@@ -121,7 +123,8 @@ function AboutPage() {
                 <Lightbulb className="w-12 h-12 text-purple-500 mx-auto mb-4" />
                 <h3 className="text-xl font-orbitron font-bold mb-3">INNOVATION</h3>
                 <p className="text-cyan-500/80">
-                  We harness the power of AI to push boundaries, innovate relentlessly, and deliver transformative solutions..
+                  We harness the power of AI to push boundaries, innovate relentlessly, and deliver 
+                  transformative solutions..
                 </p>
               </motion.div>
             </div>
@@ -171,7 +174,7 @@ function AboutPage() {
         <div className="absolute inset-0 cyber-grid opacity-20" />
         <div className="container mx-auto px-6 relative">
           <h2 className="text-4xl font-orbitron font-bold text-center mb-16 gradient-text tracking-wider">
-            OUR JOURNEY
+            OUR JOURNEY HAS JUST STARTED
           </h2>
           
           <div className="relative max-w-4xl mx-auto">
@@ -220,8 +223,8 @@ function AboutPage() {
               className="cyber-card p-6 text-center"
             >
               <Globe className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-              <div className="text-4xl font-orbitron font-bold gradient-text mb-2">15+</div>
-              <p className="text-cyan-500/80">Countries Served</p>
+              <div className="text-4xl font-orbitron font-bold gradient-text mb-2">195</div>
+              <p className="text-cyan-500/80">Countries to help</p>
             </motion.div>
             
             <motion.div
@@ -233,7 +236,7 @@ function AboutPage() {
             >
               <Cpu className="w-12 h-12 text-purple-500 mx-auto mb-4" />
               <div className="text-4xl font-orbitron font-bold gradient-text mb-2">500+</div>
-              <p className="text-cyan-500/80">AI Solutions Deployed</p>
+              <p className="text-cyan-500/80">AI Solution Deployment Possibilities</p>
             </motion.div>
             
             <motion.div
@@ -244,8 +247,8 @@ function AboutPage() {
               className="cyber-card p-6 text-center"
             >
               <Clock className="w-12 h-12 text-purple-500 mx-auto mb-4" />
-              <div className="text-4xl font-orbitron font-bold gradient-text mb-2">1M+</div>
-              <p className="text-cyan-500/80">Hours Saved for Clients</p>
+              <div className="text-4xl font-orbitron font-bold gradient-text mb-2">100+</div>
+              <p className="text-cyan-500/80">Hours Clients Could Save Monthly</p>
             </motion.div>
           </div>
         </div>
@@ -261,11 +264,12 @@ function AboutPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-5xl font-orbitron font-black mb-8 gradient-text tracking-wider">
-              JOIN OUR MISSION
+              PARTNER WITH US FOR SUCCESS
             </h2>
             <p className="text-xl text-cyan-500/80 mb-8 max-w-2xl mx-auto">
-              Whether you're looking to partner with us, join our team, or learn more about our technology,
-              we'd love to connect with you.
+              We&rsquore dedicated to delivering exceptional solutions that drive results. Whether you're 
+              looking for innovative services, long-term collaboration, or simply want to learn more 
+              about what we do, we&rsquore here to help. Let&rsquos create something great together.
             </p>
             <motion.button
               whileHover={{ scale: 1.05 }}
