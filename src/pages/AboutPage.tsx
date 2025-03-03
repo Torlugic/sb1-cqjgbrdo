@@ -6,13 +6,13 @@ const teamMembers = [
   {
     name: 'Nicholas N',
     role: 'CEO & Co-Founder',
-    image: 'https://media.licdn.com/dms/image/v2/D4E03AQFR2Q6kReK5lg/profile-displayphoto-shrink_400_400/B4EZTIjWxgHgAk-/0/1738531499562?e=1746057600&v=beta&t=6tvt1lmXTK1AsCyQDZXUQrk5UsGXJvt_VQgYjhGZEYc?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    image: 'https://media.licdn.com/dms/image/v2/D4E03AQFR2Q6kReK5lg/profile-displayphoto-shrink_400_400/B4EZTIjWxgHgAk-/0/1738531499562?e=1746057600&v=beta&t=6tvt1lmXTK1AsCyQDZXUQrk5UsGXJvt_VQgYjhGZEYc.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
     bio: 'A problem-solving creative with a strong foundation in game development, copywriting, and AI automation, skilled in crafting interactive experiences, persuasive narratives, and efficient digital solutions.'
   },
   {
     name: 'Samuel N',
     role: 'CTO & Co-Founder',
-    image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/313918055_154873827243957_4926271063643763164_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KjA1EBWFORAQ7kNvgFijA1z&_nc_oc=AdiklWvtmqvf2Z63KsS3peoU3AHHul7OD1e9GBIGKqbCM_cFOc8cbn6mej2BbE8fWHM&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Am17TD3E6tbj_WfH-8ZxZi0&oh=00_AYDCFiNjOH-VkjVz-t6-muCU_Z6ff7pc-YCg6k-1wXflkg&oe=67C839C5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
+    image: 'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/313918055_154873827243957_4926271063643763164_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KjA1EBWFORAQ7kNvgFijA1z&_nc_oc=AdiklWvtmqvf2Z63KsS3peoU3AHHul7OD1e9GBIGKqbCM_cFOc8cbn6mej2BbE8fWHM&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Am17TD3E6tbj_WfH-8ZxZi0&oh=00_AYDCFiNjOH-VkjVz-t6-muCU_Z6ff7pc-YCg6k-1wXflkg&oe=67C839C5.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
     bio: 'A strategic and analytical expert skilled in market dynamics, consumer psychology, and revenue optimization, with a deep understanding of scaling and streamlining digital operations.'
   }/*,
   {
@@ -31,7 +31,7 @@ const teamMembers = [
 
 const milestones = [
   {
-    year: '2020',
+    /*year: '2020',
     title: 'Company Founded',
     description: 'Pixxal.AI was established with a mission to democratize AI automation for businesses of all sizes.'
   },
@@ -50,10 +50,10 @@ const milestones = [
     title: 'Series A Funding',
     description: 'Raised $12M in Series A funding to accelerate product development and market expansion.'
   },
-  {
-    year: '2024',
-    title: 'Global Expansion',
-    description: 'Opened offices in London and Singapore, serving clients across 15 countries worldwide.'
+  {*/
+    year: '2025',
+    title: 'Getting Started',
+    description: 'Now taking on clients'
   }
 ];
 
