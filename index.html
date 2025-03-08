@@ -10,21 +10,39 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script type="text/javascript">
-      (function(d, t) {
-          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-          v.onload = function() {
-            window.voiceflow.chat.load({
-              verify: { projectID: '67c47576d2f15c9ea5e75177' },
-              url: 'https://general-runtime.voiceflow.com',
-              versionID: 'production', 
-              voice: { 
-                url: "https://runtime-api.voiceflow.com" 
+    <div style="width: 500px; height: 500px;" id="VG_OVERLAY_CONTAINER">
+      <!-- Here is where TIXAE Agents renders the widget. -->
+      <!-- Set width, height for 500px as an example after changing render to 'full-width' -->
+      </div>
+      
+      <!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
+      <script defer>
+          (function() {
+              window.VG_CONFIG = {
+                  ID: "p75ukutl975pbtfa",
+                  region: 'na', // 'eu' or 'na'corresponding to Europe and North America
+                  render: 'full-width', // popup or full-width
+                  stylesheets: [
+                      // Base TIXAE Agents CSS
+                      "https://vg-bunny-cdn.b-cdn.net/vg_live_build/styles.css",
+                      // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
+                  ],
+                  // (SHOULD BE REMOVED OR CHANGED, PROVIDED AS AN EXAMPLE TO USE)
+                  // user: {
+                  //     name: 'John Doe', // User's name
+                  //     email: 'johndoe@gmail.com', // User's email
+                  //     phone: '+1234567890', // User's phone number
+                  // }
+                  //
+                  // **
+                  // userID: 'USER_ID', // If you want to use your own user_id
+                  // autostart: true, // Whether to autostart the chatbot with the proactive message
               }
-            });
-          }
-          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-      })(document, 'script');
-    </script>
+              var VG_SCRIPT = document.createElement("script");
+              VG_SCRIPT.src = "https://vg-bunny-cdn.b-cdn.net/vg_live_build/vg_bundle.js";
+              VG_SCRIPT.defer = true; // Remove 'defer' if you want widget to load faster (Will affect website loading)
+              document.body.appendChild(VG_SCRIPT);
+          })()
+      </script>
   </body>
 </html>
